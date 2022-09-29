@@ -1,0 +1,23 @@
+{
+  "name": "codewar_challenges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "n/a",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilesherrott/codewars-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilesherrott/codewars-challenges/issues"
+  },
+  "homepage": "https://github.com/emilesherrott/codewars-challenges#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "jest": "^29.1.1"
+  }
+}
