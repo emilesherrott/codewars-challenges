@@ -1,4 +1,4 @@
-const pickPeaks = require('../kataTraining/pickPeaks')
+const pickPeaks = require('../kataTraining/pickPeaks5kyu')
 
 const chai = require("chai");
 const assert = chai.assert;
