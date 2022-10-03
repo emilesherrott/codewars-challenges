@@ -19,7 +19,6 @@ function warnTheSheep(queue) {
     if (queue[queue.length - 1] === 'wolf') return 'Pls go away and stop eating my sheep'
     let wolfIndex = queue.indexOf('wolf')
     let sheepNumber = (queue.length - wolfIndex) - 1
-    console.log(sheepNumber)
     return `Oi! Sheep number ${sheepNumber}! You are about to be eaten by a wolf!` 
   }
 

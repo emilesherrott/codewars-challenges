@@ -23,7 +23,6 @@ const pickPeaks = (arr) => {
     }
     if (arr[i] > arr[i-1] && arr[i] === arr[i+1]){
         arrSlice = arr.slice(i)
-        console.log('line 26', arrSlice)
         let highest = true
         let indexLower = false
         for (let j = 1; j < arrSlice.length; j++) {
